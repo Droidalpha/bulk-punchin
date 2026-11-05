@@ -1,0 +1,6 @@
+<resources>
+    <!-- Android 15+ draws apps behind the system bars by default, which hides the top of the page. -->
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>
